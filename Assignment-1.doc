@@ -1,0 +1,23 @@
+Assignment 1:
+
+1.  WHAT IS ML? (Machine Learning)
+
+Ans. = Machine Learning (ML) is a subfield of artificial intelligence (AI) that focuses on the development of algorithms and models that enable computers to learn from data without being explicitly programmed. Unlike traditional programming, where specific instructions are provided for every possible scenario, ML algorithms analyse large datasets to identify patterns, extract insights, and make predictions or decisions.
+In essence, ML empowers computers to learn and improve from experience, much like humans do. Instead of relying on pre-defined rules, ML algorithms use statistical techniques to uncover relationships and dependencies within data. This learning process allows ML models to adapt to new data and improve their performance over time.
+For example, consider teaching a child to identify cats. Rather than explicitly describing every characteristic of a cat, you show the child numerous images of cats. Over time, the child learns to recognize cats independently. Similarly, ML algorithms learn from data to perform tasks such as classification (e.g., identifying spam emails), regression (e.g., predicting house prices), clustering (e.g., grouping customers based on purchasing behaviour), and more, without the need for specific instructions for every possible scenario. This adaptability makes ML a powerful tool for solving complex problems in various domains, including healthcare, finance, and marketing.
+
+2. WHAT IS SUPERVISED ML ALGORITHM?
+
+Ans. = Supervised Machine Learning is analogous to learning with a teacher who provides guidance and feedback. In this paradigm, the algorithm learns from a labelled dataset, where each data point is associated with a corresponding output or target variable. The primary objective of supervised learning is to learn a mapping function that can accurately predict the output for new, unseen inputs.
+During the training phase, the algorithm iteratively adjusts its internal parameters to minimize the difference between its predictions and the actual outputs. This process involves optimizing a loss function, which quantifies the error between the predicted and actual values. By minimizing the loss function, the algorithm gradually improves its ability to generalize to new data.
+One common example of supervised learning is image classification. Suppose we want to train a model to identify different types of fruits, such as apples, bananas, and oranges. We would first collect a labelled dataset consisting of images of fruits, where each image is labelled with the corresponding fruit type. The algorithm would then learn to extract relevant features from the images, such as colour, shape, and texture, and associate these features with the correct fruit type. Once trained, the model can accurately classify new images of fruits based on their visual characteristics.
+Another example is predicting customer churn in a telecommunications company. By analysing historical data on customer demographics, usage patterns, and service interactions, a supervised learning model can identify customers who are likely to cancel their subscriptions. The model can then be used to proactively offer incentives or personalized services to retain these customers, thereby reducing churn rates and improving customer satisfaction.
+
+
+3. What is Regression and Classification?
+
+Ans. =
+**Regression: ** Regression is a type of supervised machine learning used to predict continuous numerical values. In regression tasks, the goal is to establish a relationship between input variables (independent variables) and a continuous output variable (dependent variable). The algorithm learns from a labelled dataset where each data point consists of input features and a corresponding numerical target value.
+*   **Example: ** Predicting house prices based on features like square footage, number of bedrooms, and location. The model learns the relationship between these features and the sale prices of houses, allowing it to estimate the price of new houses based on their characteristics.
+**Classification: ** Classification, also a form of supervised learning, focuses on predicting categorical labels or classes. Unlike regression, where the output is a continuous value, classification aims to assign data points to predefined categories. The algorithm learns from a labelled dataset where each data point is associated with a specific class label.
+*   **Example: ** Email spam detection. The model learns to classify emails as either "spam" or "not spam" based on features such as the sender's address, the content of the email, and the presence of certain keywords.
