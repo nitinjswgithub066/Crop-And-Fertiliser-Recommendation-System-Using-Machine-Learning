@@ -1,1 +1,1 @@
-# Crop and Fertiliser Recommendation System using Machine Learning
+# Crop and Fertiliser Recommendation System Using Machine Learning
